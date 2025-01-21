@@ -1,5 +1,5 @@
 // React
-import React from "react";
+import { HStack } from "@chakra-ui/react";
 // React
 
 // Icons
@@ -8,9 +8,9 @@ import { SiMonogame } from "react-icons/si";
 
 const NavBar = () => {
   return (
-    <div>
+    <HStack>
       <SiMonogame color="purple" />
-    </div>
+    </HStack>
   );
 };
 
